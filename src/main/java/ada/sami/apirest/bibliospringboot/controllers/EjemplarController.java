@@ -22,7 +22,7 @@ import ada.sami.apirest.bibliospringboot.entities.Ejemplar;
 import ada.sami.apirest.bibliospringboot.services.EjemplarService;
 
 @RestController
-@RequestMapping("/ejemplares")
+@RequestMapping("/bibliospringboot/ejemplares")
 public class EjemplarController {
 
     @Autowired

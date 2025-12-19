@@ -22,7 +22,7 @@ import ada.sami.apirest.bibliospringboot.entities.Edicion;
 import ada.sami.apirest.bibliospringboot.services.EdicionService;
 
 @RestController
-@RequestMapping("/ediciones")
+@RequestMapping("/bibliospringboot/ediciones")
 public class EdicionController {
 
     @Autowired
