@@ -22,7 +22,7 @@ import ada.sami.apirest.bibliospringboot.entities.Libro;
 import ada.sami.apirest.bibliospringboot.services.LibroService;
 
 @RestController
-@RequestMapping("/libros")
+@RequestMapping("/bibliospringboot/libros")
 public class LibroController {
 
     @Autowired
